@@ -59,6 +59,6 @@ class ProductManager {
 
   productManager.addProduct("Suspensión", "Suspensión Fox", 2000000, "jssksksdjskds" , 2502, 2);
   
-  productManager.getProducts();
+  console.log(productManager.getProducts());
 
   productManager.getProductById(2);
